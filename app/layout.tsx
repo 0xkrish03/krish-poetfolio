@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "@/components/Header";
 
 
 
@@ -15,10 +16,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={``}
-      >
+    <html lang="en" className="bg-gray-950">
+      <body className={`text-white`}>
+        <Header />
         {children}
       </body>
     </html>
