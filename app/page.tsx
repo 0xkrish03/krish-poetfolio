@@ -23,7 +23,7 @@ export default function Home() {
             {/* buttons and socials */}
 
             <div className="flex flex-row items-center gap-8 ">
-              <Button className="items-center flex gap-2 bg-transparent text-green-500 border border-green-500 ">
+              <Button className="items-center flex gap-2 bg-transparent text-green-500 border border-green-500  hover:bg-green-500  hover:text-stone-700">
                 <span>Download CV</span>
                 <FiDownload className="text-xl mt-0.5" />
               </Button>

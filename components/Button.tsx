@@ -13,7 +13,7 @@ const Button: React.FC<ButtonProps> = ({ children, className, isDefault }) => {
   return (
     <div>
       <button
-        className={`${def} ${className} hover:bg-green-500 hover:text-stone-700 hover:transition-all duration-500 rounded-full py-2 px-4 `}
+        className={`${def} ${className}  hover:transition-all duration-500 rounded-full py-2 px-4 `}
       >
         {children}
       </button>
