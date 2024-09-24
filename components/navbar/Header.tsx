@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 import Navbar from './Navbar'
-import Button from '../Button'
+import { Button } from '../ui/button'
+
 
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
             <div className="flex items-center gap-8">
                 <Navbar />
                 <Link href='/contacts'>
-                    <Button className='bg-accent text-stone-700 hover:brightness-150' > Hire Me.</Button>
+                <Button className='bg-accent text-primary hover:brightness-150' >Hire me</Button>
                 </Link>
             </div>
         </div>
