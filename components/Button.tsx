@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ children, className, isDefault }) => {
   // Ensure def is initialized correctly
-  const def = isDefault ? "bg-green-500 text-stone-700" : "";
+  const def = isDefault ? "bg-accent text-stone-700" : "";
 
   return (
     <div>

@@ -38,8 +38,8 @@ const Navbar = () => {
         {links.map((link,index)=>{
             return(
                 <Link href={link.path} key={index} className={`
-                            ${link.path === pathname && `text-green-500 border-b-2 border-green-500`}
-                            capitalize font-medium hover:text-green-500 transition-all
+                            ${link.path === pathname && `text-accent border-b-2 border-accent`}
+                            capitalize font-medium hover:text-accent transition-all
                         `}>
                     {link.name}
                 </Link>

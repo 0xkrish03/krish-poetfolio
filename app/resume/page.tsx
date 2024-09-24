@@ -248,7 +248,7 @@ const Resume = () => {
                           key={index}
                           className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-center gap-1  "
                         >
-                          <span className="text-green-500">
+                          <span className="text-accent">
                             {item.duration}
                           </span>
                           <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left ">
@@ -256,7 +256,7 @@ const Resume = () => {
                           </h3>
                           <div className="flex items-center gap-3">
                             {/* dot */}
-                            <span className="w-[6px] h-[6px] rounded-full bg-green-500"></span>
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60">{item.company}</p>
                           </div>
                         </li>
@@ -283,7 +283,7 @@ const Resume = () => {
                           key={index}
                           className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-center gap-1  "
                         >
-                          <span className="text-green-500">
+                          <span className="text-accent">
                             {item.duration}
                           </span>
                           <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left ">
@@ -291,7 +291,7 @@ const Resume = () => {
                           </h3>
                           <div className="flex items-center gap-3">
                             {/* dot */}
-                            <span className="w-[6px] h-[6px] rounded-full bg-green-500"></span>
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60">{item.institution}</p>
                           </div>
                         </li>
@@ -319,7 +319,7 @@ const Resume = () => {
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
                             <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                              <div className="text-6xl group-hover:text-green-500 transition-all duration-300 ">
+                              <div className="text-6xl group-hover:text-accent transition-all duration-300 ">
                                 {skill.icon}
                               </div>
                             </TooltipTrigger>
