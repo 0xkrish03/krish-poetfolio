@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# krish-poetfolio
 
-## Getting Started
+> My first real frontend project — a personal portfolio built to showcase who I am as a developer.
 
-First, run the development server:
+This is where it all started. **krish-poetfolio** is my personal developer portfolio, built from scratch as my first serious dive into frontend development. It features an animated landing page with stats, a projects showcase, a services section, a resume page, and a contact form — all wrapped in a dark, immersive aesthetic.
+
+---
+
+## ✨ Features
+
+- **Animated hero section** — photo animation, social links, and a downloadable CV button
+- **Work / Projects page** — swipeable project cards with live + GitHub links
+- **Services page** — overview of what I offer
+- **Resume page** — skills, experience, and education
+- **Contact page** — reach out form
+- **Smooth page transitions** powered by Framer Motion
+- **Fully responsive** layout
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | [Next.js 15](https://nextjs.org) |
+| Language | TypeScript |
+| Styling | Tailwind CSS + tailwind-merge |
+| Animations | Framer Motion |
+| UI Components | Radix UI (Tabs, Tooltip, Select, Scroll Area) |
+| Icons | Lucide React + React Icons |
+| Slider | Swiper.js |
+| Utilities | clsx, class-variance-authority |
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+krish-poetfolio/
+├── app/
+│   ├── page.tsx          # Home / hero
+│   ├── work/             # Projects showcase
+│   ├── services/         # Services offered
+│   ├── resume/           # Resume / CV
+│   └── contact/          # Contact form
+├── components/
+│   ├── Stats.tsx          # Animated stat counters
+│   ├── Socials.tsx        # Social media links
+│   ├── navbar/            # Navigation bar
+│   ├── animation/         # Photo & page animations
+│   └── ui/                # Shared UI components
+└── public/               # Static assets & images
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deployed on [Vercel](https://vercel.com). Push to `main` and it ships automatically.
 
-## Deploy on Vercel
+```bash
+npm run build   # verify production build locally
+npm run start   # preview the production build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Built with a lot of curiosity, a few late nights, and way too many browser tabs open. — Krish*
